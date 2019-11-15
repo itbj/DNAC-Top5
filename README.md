@@ -42,3 +42,4 @@ Traces the path from host A to host B through the network
 ```buildoutcfg
 ./05_path_trace.py --srcip 10.10.22.114 --dstip 10.10.22.98
 ```
+Note: 要修改dnac_config.py , 将DNAC的端口从8080 更新为443， 否则运行出错。
